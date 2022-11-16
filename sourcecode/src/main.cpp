@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
-constexpr uint8_t TX = 3;
-constexpr uint8_t TX_MUX[] = { 7, 5, 16, 14 }; // S0 -> S3
+constexpr uint8_t TX = 5;
+constexpr uint8_t TX_MUX[4] = { 7, 16, 14, 15 };
 constexpr uint8_t RX[] = { /*4,*/ 6, 8, 21, 20, 19, 18, 10, 9};
 
 uint8_t mask = 0b0001;
@@ -21,10 +21,10 @@ void setup() {
   for (const auto& pin: RX){ pinMode(pin, INPUT); }
 
   pinMode(TX,OUTPUT);
-  TCCR0A = (COM0A0) | _BV(COM0B1) | _BV(WGM01) | _BV(WGM00);
-  TCCR0B = _BV(WGM02) | _BV(CS00);
-  OCR0A = 3;
-  OCR0B = 1;
+  TCCR4A = _BV(COM4A0) | _BV(PWM4A);
+  TCCR4B = _BV(PWM4X) | _BV(CS40);
+  OCR4C = 4;
+  OCR4A = 2;
   // analogReference(INTERNAL);         //change reference to 1.1V
 }
 
