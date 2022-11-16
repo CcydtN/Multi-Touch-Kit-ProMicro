@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "touchpad_patten")(type "KiCad")(uri "${KIPRJMOD}/touchpad_pattern.kicad_sym")(options "")(descr ""))
+  (lib (name "promicro")(type "Legacy")(uri "${KIPRJMOD}/ProMicroKiCad/promicro_library/promicro.lib")(options "")(descr ""))
+)
