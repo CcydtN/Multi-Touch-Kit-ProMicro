@@ -6,6 +6,8 @@ As the title suggests, this project is trying to reproduce the result of [Multi-
 ## Demo
 https://user-images.githubusercontent.com/51289140/219960157-e1035877-1ed2-4f21-ac63-bcd13f59a0d3.mp4
 > The demo is using the source code from "experiment" branch (See Note.2)
+
+> The two axis in the demo is a mess, but I am not planning to fixed it in short term.
 ---
 ## Preparation
 In this repo:
