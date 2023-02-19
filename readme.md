@@ -3,6 +3,10 @@
 As the title suggests, this project is trying to reproduce the result of [Multi-Touch kit](https://hci.cs.uni-saarland.de/projects/multi-touch-kit/) with a ProMicro board.
 
 ---
+## Demo
+https://user-images.githubusercontent.com/51289140/219960157-e1035877-1ed2-4f21-ac63-bcd13f59a0d3.mp4
+> The demo is using the source code from "experiment" branch (See Note.2)
+---
 ## Preparation
 In this repo:
 - A python script to create the grid
@@ -24,7 +28,7 @@ Almost of the procedure is same as the Multi-Touch Kit Project
 
 ---
 ## Note
-1. Readings from R1 seem having a lot of  noise and effecting the result, so I disable it.
+1. Readings from R1 seem having a lot of noise and effecting the result, so it is disabled.
 2. "Experiment" branch seem to have a better performance. I am trying to figure out the reason, feel free to comment in the issue.
 
 ---
