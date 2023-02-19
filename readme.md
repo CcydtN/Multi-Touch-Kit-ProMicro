@@ -29,7 +29,7 @@ Almost of the procedure is same as the Multi-Touch Kit Project
 ---
 ## Note
 1. Readings from R1 seem having a lot of noise and effecting the result, so it is disabled.
-2. "Experiment" branch seem to have a better performance. I am trying to figure out the reason, feel free to comment in the issue.
+2. "Experiment" branch seem to have a better performance. I am trying to figure out the reason, feel free to comment in the [issue](https://github.com/CcydtN/Multi-Touch-Kit-ProMicro/issues/2).
 
 ---
 Reference:
