@@ -8,19 +8,18 @@ In this repo:
 - A python script to create the grid
 - A KiCad project for the pcb design
 - The source code for the ProMicro
+- Clone of [Multi-Touch Kit Processing code](https://github.com/HCI-Lab-Saarland/MultiTouchKitUI)
 
 Not in the repo:
 - [PlatformIO](https://platformio.org/)
-    - The source code for ProMicro, using arduino library
 - [Processing](https://processing.org/)
-- [Multi-Touch Kit processing code](https://github.com/HCI-Lab-Saarland/MultiTouchKitUI)
 
 ---
 ## Procedure
 Almost of the procedure is same as the Multi-Touch Kit Project
 1. Generate a grid
 2. Connect all pin and wire
-3. Upload the code
+3. Upload the code through PlatformIO
 4. Use Processing to observe the result
 
 ---
