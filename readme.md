@@ -22,11 +22,12 @@ Not in the repo:
 
 ---
 ## Procedure
-Almost of the procedure is same as the Multi-Touch Kit Project
-1. Generate a grid
-2. Connect all pin and wire
-3. Upload the code through PlatformIO
-4. Use Processing to observe the result
+Most steps is following the Multi-Touch Kit Project
+1. Create a schemetic
+2. Print out the PCB and prepare the components
+3. Connect all pins and wires
+4. Upload the code through PlatformIO
+5. Use Processing to observe the result
 
 ---
 ## Note
