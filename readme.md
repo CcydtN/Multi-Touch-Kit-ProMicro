@@ -43,3 +43,11 @@ Reference:
     - The python script for generating grid is base on this document.
 - [Pro Micro & Fio V3 Hookup Guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-overview-pro-micro)
     - Pin layout about ProMicro
+
+---
+## Future Plan
+- [ ] Learn about USB-HID
+  - https://www.usb.org/hid
+  - https://docs.kernel.org/hid/index.html
+  - https://learn.microsoft.com/en-us/windows-hardware/design/component-guidelines/touchpad-sample-report-descriptors
+  - https://github.com/smulikHakipod/USB-Emulation/tree/master
